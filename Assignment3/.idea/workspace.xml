@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee043f76-d006-4e0c-acc5-0faa897e1bc7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" afterPath="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" afterPath="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" />
     </list>
     <ignored path="Assignment3.iws" />
@@ -22,7 +23,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="93" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
+      <breakpoint url="file://$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" line="192" class="edu.gatech.seclass.MyWeirdStringTest" package="edu.gatech.seclass">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -35,98 +36,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="94" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="96" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="95" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="97" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="98" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="99" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="90" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" line="89" class="edu.gatech.seclass.MyWeirdString" package="edu.gatech.seclass">
+      <breakpoint url="file://$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" line="193" class="edu.gatech.seclass.MyWeirdStringTest" package="edu.gatech.seclass">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -183,10 +93,31 @@
       <file leaf-file-name="MyWeirdStringTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="87" selection-start="7047" selection-end="7047" vertical-scroll-proportion="7.655629">
+            <state line="127" column="16" selection-start="3905" selection-end="3905" vertical-scroll-proportion="-1.2428256">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyWeirdString.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="23" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1356#1364#0" expanded="true" />
+                <element signature="e#2474#2489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyWeirdStringInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdStringInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="37" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -206,9 +137,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/edu/gatech/seclass/MyIndexOutOfBoundsException.java" />
         <option value="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdStringInterface.java" />
-        <option value="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" />
         <option value="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringParametrizedTest.java" />
         <option value="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" />
       </list>
     </option>
   </component>
@@ -335,29 +266,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.MyWeirdStringTest.testConvertDigitsToRomanNumeralsInSubstring5">
-    <configuration default="false" name="MyWeirdStringTest.testGetOddCharacters2" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Assignment3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.gatech.seclass" />
-      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.MyWeirdStringTest" />
-      <option name="METHOD_NAME" value="testGetOddCharacters2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyWeirdStringTest">
     <configuration default="false" name="MyWeirdStringTest.testCountDigits3" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Assignment3" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -449,6 +358,34 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyWeirdStringTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Assignment3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.MyWeirdStringTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -570,11 +507,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testGetOddCharacters2" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testCountDigits3" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testGetEvenCharacters3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testGetOddCharacters3" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testConvertDigitsToRomanNumeralsInSubstring5" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testCountDigits3" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testGetEvenCharacters3" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testGetOddCharacters3" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest.testConvertDigitsToRomanNumeralsInSubstring5" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyWeirdStringTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -625,7 +562,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1788793" sideWeight="0.52793294" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -729,24 +666,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdStringInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="859" selection-end="859" vertical-scroll-proportion="-0.6799117">
+        <state line="31" column="37" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="688" selection-end="688" vertical-scroll-proportion="1.0431818">
+        <state line="23" column="23" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1514#1522#0" expanded="true" />
-            <element signature="e#2632#2647#0" expanded="true" />
+            <element signature="e#1356#1364#0" expanded="true" />
+            <element signature="e#2474#2489#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="87" selection-start="7047" selection-end="7047" vertical-scroll-proportion="7.655629">
+        <state line="127" column="16" selection-start="3905" selection-end="3905" vertical-scroll-proportion="-1.2428256">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

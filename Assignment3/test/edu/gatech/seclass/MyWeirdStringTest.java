@@ -171,7 +171,7 @@ public class MyWeirdStringTest {
     @Test(expected = MyIndexOutOfBoundsException.class)
     public void testConvertDigitsToRomanNumeralsInSubstring2() {
         myweirdstring.setWeirdString("My wei3rd 4St6ring");
-        myweirdstring.convertDigitsToRomanNumeralsInSubstring(0,10);
+        myweirdstring.convertDigitsToRomanNumeralsInSubstring(0,5);
     }
 
     /**
@@ -191,7 +191,7 @@ public class MyWeirdStringTest {
     @Test(expected = MyIndexOutOfBoundsException.class)
     public void testConvertDigitsToRomanNumeralsInSubstring4() {
         myweirdstring.setWeirdString("My wei3rd 4St6ring a7d m0re");
-        myweirdstring.convertDigitsToRomanNumeralsInSubstring(11, 25);
+        myweirdstring.convertDigitsToRomanNumeralsInSubstring(5, 50);
     }
 
     /**
@@ -227,12 +227,12 @@ public class MyWeirdStringTest {
 
     private String getEvenCharactersLargeString(){
         return "hsi ywidsrn 0ts 3frac fvr0sprs0 ywidsrn n3fc.tw7 3rnads07 333u3 3yqiky fi a3 0 uhtm st3amhr st hc " +
-                "0 h 3frac ft3apiain aiga7n3 hnuu7tm a a3sgiiatipc nt3ss3.T33tssa3ciia 0cnim0rcd n3 3t anan ihqaiy";
+                "0 h 3frac ft3apiain aiga7n3 hnuu7tm a a3sgiiatipc nt3ss3.T33tssa3ciia 0cnim0rcd n3 3t anan ihqaiyTssEd.";
     }
 
     private String getOddCharactersLargeString(){
         return "Ti sm 3r tigt 3tpr0mn30 aiu at fm 3r tigitra3I i7b u n hudb xctdvr uc7.I ttkst0mc i3a h i 33i " +
-                "0c3kfrt3pr0mn30 h p7ct0.Tkn  0grta sa i3cnhv infcn mat0 h ytm hs 3t r rtc7t 0fr u 03udrtssmitishg u7t.";
+                "0c3kfrt3pr0mn30 h p7ct0.Tkn  0grta sa i3cnhv infcn mat0 h ytm hs 3t r rtc7t 0fr u 03udrtssmitishg u7t.et ns";
     }
 
     private String getCompletelyConvertedRomanNumeralString(){

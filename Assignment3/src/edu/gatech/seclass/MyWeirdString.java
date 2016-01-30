@@ -21,7 +21,7 @@ public class MyWeirdString implements MyWeirdStringInterface {
 
     @Override
     public String getWeirdString() {
-        return message;  //To change body of implemented methods use File | Settings | File Templates.
+        return message;
     }
 
     @Override
@@ -34,7 +34,7 @@ public class MyWeirdString implements MyWeirdStringInterface {
                 stringBuilder.append(message.charAt(i));
             }
         }
-        return stringBuilder.toString();  //To change body of implemented methods use File | Settings | File Templates.
+        return stringBuilder.toString();
     }
 
     @Override
