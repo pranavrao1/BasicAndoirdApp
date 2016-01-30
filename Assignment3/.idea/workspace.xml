@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee043f76-d006-4e0c-acc5-0faa897e1bc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" afterPath="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" afterPath="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" />
     </list>
     <ignored path="Assignment3.iws" />
@@ -22,34 +20,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" line="192" class="edu.gatech.seclass.MyWeirdStringTest" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" line="193" class="edu.gatech.seclass.MyWeirdStringTest" package="edu.gatech.seclass">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -93,7 +63,7 @@
       <file leaf-file-name="MyWeirdStringTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="16" selection-start="3905" selection-end="3905" vertical-scroll-proportion="-1.2428256">
+            <state line="250" column="45" selection-start="9083" selection-end="9083" vertical-scroll-proportion="9.381899">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/edu/gatech/seclass/MyIndexOutOfBoundsException.java" />
         <option value="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdStringInterface.java" />
         <option value="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringParametrizedTest.java" />
-        <option value="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" />
         <option value="$PROJECT_DIR$/src/edu/gatech/seclass/MyWeirdString.java" />
+        <option value="$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java" />
       </list>
     </option>
   </component>
@@ -683,7 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/MyWeirdStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="16" selection-start="3905" selection-end="3905" vertical-scroll-proportion="-1.2428256">
+        <state line="250" column="45" selection-start="9083" selection-end="9083" vertical-scroll-proportion="9.381899">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

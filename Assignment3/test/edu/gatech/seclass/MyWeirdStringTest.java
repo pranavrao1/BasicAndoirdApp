@@ -217,6 +217,10 @@ public class MyWeirdStringTest {
         assertEquals(getCompletelyConvertedRomanNumeralString(),myweirdstring.getWeirdString());
 	}
 
+    /**
+     * This is to get a large alpha-numeric string.
+     * @return result string
+     */
     private String getLargeAlphNumericString(){
         return "This is my w3ird string t0 t3st p3rf0rmanc3 0f vari0us parts 0f my w3ird string int3rfac3." +
                 "It wi77 b3 run and sh0u7d b3 3x3cut3d v3ry quick7y. If it tak3s t00 much tim3 as th3 aim h3r3 is t0 " +
@@ -225,16 +229,28 @@ public class MyWeirdStringTest {
                 "Tests Ends.";
     }
 
+    /**
+     * This is to get a large even alpha-numeric string.
+     * @return result string
+     */
     private String getEvenCharactersLargeString(){
         return "hsi ywidsrn 0ts 3frac fvr0sprs0 ywidsrn n3fc.tw7 3rnads07 333u3 3yqiky fi a3 0 uhtm st3amhr st hc " +
                 "0 h 3frac ft3apiain aiga7n3 hnuu7tm a a3sgiiatipc nt3ss3.T33tssa3ciia 0cnim0rcd n3 3t anan ihqaiyTssEd.";
     }
 
+    /**
+     * This is to get a large odd alpha-numeric string.
+     * @return result string
+     */
     private String getOddCharactersLargeString(){
         return "Ti sm 3r tigt 3tpr0mn30 aiu at fm 3r tigitra3I i7b u n hudb xctdvr uc7.I ttkst0mc i3a h i 33i " +
                 "0c3kfrt3pr0mn30 h p7ct0.Tkn  0grta sa i3cnhv infcn mat0 h ytm hs 3t r rtc7t 0fr u 03udrtssmitishg u7t.et ns";
     }
 
+    /**
+     * This is to get a large Roman Numerical alpha-numeric string.
+     * @return result string
+     */
     private String getCompletelyConvertedRomanNumeralString(){
         return "This is my wIIIird string t0 tIIIst pIIIrf0rmancIII 0f vari0us parts 0f my wIIIird string intIIIrfacIII." +
                 "It wiVIIVII bIII run and sh0uVIId bIII IIIxIIIcutIIId vIIIry quickVIIy. If it takIIIs t00 much timIII " +
