@@ -21,7 +21,7 @@ public class MyWeirdStringTest {
 	}
 
     /**
-     * Test: This test to check the functionality of counting digits.
+     * Test: This test is to check the functionality of counting digits.
      * Test Type: State Test
      */
 	@Test
@@ -31,7 +31,7 @@ public class MyWeirdStringTest {
 	}
 
     /**
-     * Test: This test to check the functionality of counting digits with special characters.
+     * Test: This test is to check the functionality of counting digits with special characters.
      * Test Type: State Test
      */
 	@Test
@@ -57,7 +57,7 @@ public class MyWeirdStringTest {
     /**
      * Test: This test is to ensure the performance of the functionality of counting digits is within the
      *       time specified.
-     * Test Type: Performance
+     * Test Type: Performance Test
      */
 	@Test(timeout = 10)
 	public void testCountDigits4() {
@@ -102,7 +102,7 @@ public class MyWeirdStringTest {
     /**
      * Test: This test is to ensure the performance of the functionality of displaying even characters is
      *       within the time specified.
-     * Test Type: Performance
+     * Test Type: Performance Test
      */
 	@Test(timeout = 10)
 	public void testGetEvenCharacters4() {
@@ -144,7 +144,7 @@ public class MyWeirdStringTest {
     /**
      * Test: This test is to ensure the performance of the functionality of displaying odd characters is
      *       within the time specified.
-     * Test Type: Performance
+     * Test Type: Performance Test
      */
 	@Test(timeout = 10)
 	public void testGetOddCharacters4() {
@@ -208,7 +208,7 @@ public class MyWeirdStringTest {
     /**
      * Test: This test is to ensure the performance of the functionality of displaying roman numeral
      *       converted string is within the time specified.
-     * Test Type: Performance
+     * Test Type: Performance Test
      */
 	@Test(timeout = 10)
 	public void testConvertDigitsToRomanNumeralsInSubstring6() {
