@@ -12,5 +12,227 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Distance Converter"
+        android:id="@+id/tvDistanceConv"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvDistanceConv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Convert from:"
+                    android:id="@+id/tvConvertFrom" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mile"
+                        android:id="@+id/rbFromMile"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="feet"
+                        android:id="@+id/rbFromFeet"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="inches"
+                        android:id="@+id/rbFromInches"
+                        android:layout_gravity="left|center_vertical"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="Km"
+                        android:id="@+id/rbFromKm"
+                        android:checked="true" />
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="meters"
+                        android:id="@+id/rbFromMeter"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="cm"
+                        android:id="@+id/rbFromCm"
+                        android:checked="true" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Convert to:"
+                    android:id="@+id/tvConvertTo" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mile"
+                        android:id="@+id/rbToMile"
+                        android:checked="true" />
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="feet"
+                        android:id="@+id/rbToFeet"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="inches"
+                        android:id="@+id/rbToInches"
+                        android:layout_gravity="center_vertical"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Km"
+                        android:id="@+id/rbToKm"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="meters"
+                        android:id="@+id/rbToMeters"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="cm"
+                        android:id="@+id/rbToCm"
+                        android:layout_gravity="right"
+                        android:checked="false" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Value:"
+                android:id="@+id/tvValue" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/etValue"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Result"
+                android:id="@+id/tvResult" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/etResult"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Convert"
+                android:id="@+id/bConvert"
+                android:layout_weight="1"
+                android:onClick="handleClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:id="@+id/bReset"
+                android:layout_weight="1"
+                android:onClick="handleClick" />
+        </LinearLayout>
+
+    </LinearLayout>
+
 </RelativeLayout>
