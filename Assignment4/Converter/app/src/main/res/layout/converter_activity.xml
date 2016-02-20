@@ -207,7 +207,9 @@
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/etResult"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textIsSelectable="true"
+                android:editable="true" />
         </LinearLayout>
 
         <LinearLayout

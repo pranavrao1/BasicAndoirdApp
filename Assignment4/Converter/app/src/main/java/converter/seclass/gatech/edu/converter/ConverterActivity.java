@@ -12,18 +12,23 @@ import java.text.DecimalFormat;
 
 public class ConverterActivity extends AppCompatActivity {
 
+    //Default from radio button instance.
     private RadioButton rbFromMile;
     private RadioButton rbFromKm;
+    private RadioButton rbFromFeet;
+    private RadioButton rbFromInches;
+    private RadioButton rbFromMeters;
+    private RadioButton rbFromCm;
+
+    // Default to radio button instance.
     private RadioButton rbToMile;
     private RadioButton rbToKm;
     private RadioButton rbToFeet;
     private RadioButton rbToInches;
     private RadioButton rbToMeters;
     private RadioButton rbToCm;
-    private RadioButton rbFromFeet;
-    private RadioButton rbFromInches;
-    private RadioButton rbFromMeters;
-    private RadioButton rbFromCm;
+
+    // Default Text Editor Instance
     private EditText etValue;
     private EditText etResult;
 
@@ -50,6 +55,10 @@ public class ConverterActivity extends AppCompatActivity {
         etResult = (EditText) findViewById(R.id.etResult);
     }
 
+    /**
+     * This is the method called to change the states of the application.
+     * @param view
+     */
     public void handleClick(View view){
 
         switch (view.getId()){
@@ -70,13 +79,17 @@ public class ConverterActivity extends AppCompatActivity {
             case R.id.bReset:
                 etValue.setText("");
                 etResult.setText("");
-                rbToMile.setChecked(true);
+                rbFromMile.setChecked(true);
                 rbToMile.setChecked(true);
                 break;
         }
     }
 
-
+    /**
+     * This method will convert an entered value to cm based on the configurations chosen by the user.
+     * @param value: string value entered.
+     * @return result: the value as double data type.
+     */
     public double convertToCm(String value){
         double valueUnit = Double.parseDouble(value);
         double cm;
@@ -96,6 +109,12 @@ public class ConverterActivity extends AppCompatActivity {
         return cm;
     }
 
+    /**
+     * This method will convert the value in centimeters to the respective data type.
+     * Based on the choose configurations.
+     * @param cm: double value entered.
+     * @return result: teh value in the appropriate units.
+     */
     public String convertToDesiredValue(double cm){
         DecimalFormat format = new DecimalFormat("#.##");
         double result;
