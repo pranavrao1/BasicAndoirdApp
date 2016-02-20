@@ -1,19 +1,19 @@
 # **User Manual -- Converter by prao43**
 ### 1. Synopsis
 
-Converter is a Java based android application that can be used to convert values between any of the following units miles, feet, inches, kilometers, meters and centimeters.
+Converter is a java based android application that can be used to convert values between any of the following units miles, feet, inches, kilometers, meters and centimeters.
 
 ### 2. Description
 
 This section gives a brief description of running this application.
-Run the application in an android emulator or download into an android based system.
+Run the application in an android emulator or download it into an android based system.
 Please see the 'Requirement' section below for further specifications.
 
 The application has series of radio buttons on the left. These are to identify the units of the value you are entering. They are below the header "Convert From". 
 
 There are a series of radio buttons on the right. These are to identify the units of the value you want to convert too. They are listed below the header "Convert To".
 
-Below is the value text field where the user will enter the value they would like to convert too.
+Below this section is the "value" text field where the user will enter the value they would like to convert too.
 Hitting the "Convert" button will change the display and the results will be in the "Result" text field.
 
 To clear all activity hit the "Reset" button, this will return the application to its default state.
