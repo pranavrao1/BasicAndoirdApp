@@ -9,15 +9,23 @@
 	  None.                    [single][if !emptyFile]
 	  One.                             [if !emptyFile]
 	  Many.                            [if !emptyFile && !loneCharacter]
+  Number of delimiter in a file:
+	  None.                  [single] [if !emptyFile] [property noDelimitFile]            
+	  One.                            [if !emptyFile] [property singleDelimitFile]
+	  Many.                           [if !emptyFile]
+  Number of delimiter in a single line:
+	  None.                  [single] [if !emptyFile] [property noDelimitSen]
+	  One.                            [if !emptyFile && !noDelimitFile] [property singleDelimitLine]
+	  Many.                           [if !emptyFile && !noDelimitFile] 
 	  
   Number of fields in one file:
       None.                    [single] [if !emptyFile && !loneCharacter]
-	  Single.                           [if !emptyFile]
-	  Multiple.                         [if !emptyFile && !loneCharacter]
+	  Single.                           [if !loneCharacter && singleDelimitFile]
+	  Multiple.                         [if !loneCharacter && !noDelimitFile && !singleDelimitFile]
   Number of fields in a single line:
       None.                   [single]  [if !emptyFile && !loneCharacter]
-	  Single.                           [if !emptyFile]
-	  Multiple.                         [if !emptyFile && !loneCharacter]
+	  Single.                           [if !loneCharacter && !noDelimitSen && singleDelimitLine]
+	  Multiple.                         [if !loneCharacter && !noDelimitSen && !singleDelimitLine]
 
 # Filename
   Presence of file corresponding to the name:
