@@ -1,0 +1,25 @@
+# File
+  Size:
+      Empty.				[single][property emptyFile]
+	  Not Empty.
+  Number of characters in one file:
+	  One.                     [single] [property loneCharater]
+	  Many.
+  Number of characters in one line:
+	  None.                    [single][if !loneCharater]
+	  One.                             [if !loneCharater]
+	  Many.                            [if !loneCharater]
+	  
+# Filename
+  Presence of file corresponding to the name:
+	  Not Present.           [error]
+	  Present.
+
+# Option 2: List
+  Position of characters:
+      None                   [single][property emptyCharacters]
+      One                    [single]     
+	  Multiple
+	  Range
+	  Multiple Ranges
+	  Combination Singles and Ranges
