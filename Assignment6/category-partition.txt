@@ -1,25 +1,50 @@
 # File
   Size:
-      Empty.				[single][property emptyFile]
-	  Not Empty.
+      Empty.		           [single][property emptyFile]
+      Not Empty.
   Number of characters in one file:
-	  One.                     [single] [property loneCharater]
-	  Many.
-  Number of characters in one line:
-	  None.                    [single][if !loneCharater]
-	  One.                             [if !loneCharater]
-	  Many.                            [if !loneCharater]
+	  One.                     [single][if !emptyFile][property loneCharacter]
+	  Many.                            [if !emptyFile]
+  Number of characters in a single line:
+	  None.                    [single][if !emptyFile]
+	  One.                             [if !emptyFile]
+	  Many.                            [if !emptyFile && !loneCharacter]
 	  
+  Number of fields in one file:
+      None.                    [single] [if !emptyFile && !loneCharacter]
+	  Single.                           [if !emptyFile]
+	  Multiple.                         [if !emptyFile && !loneCharacter]
+  Number of fields in a single line:
+      None.                   [single]  [if !emptyFile && !loneCharacter]
+	  Single.                           [if !emptyFile]
+	  Multiple.                         [if !emptyFile && !loneCharacter]
+
 # Filename
   Presence of file corresponding to the name:
 	  Not Present.           [error]
-	  Present.
-
+	  Present.               
+	  
+# Option 1: Fields
+  Length of the delimiter:
+      Zero.                  [error]
+	  One.
+	  More than one.
+  Presence of enclosing quotes:
+	  Enclosed.
+	  Incorrect.             [error]
+  Number of fields in line:
+	  Empty.                  [error]
+	  Ranges.
+	  Multiple Ranges.
+  Position of field in line:
+	  Out of bounds.          [error]
+	  Inbounds.
+	  
 # Option 2: List
-  Position of characters:
-      None                   [single][property emptyCharacters]
-      One                    [single]     
-	  Multiple
-	  Range
-	  Multiple Ranges
-	  Combination Singles and Ranges
+  Number of characters:
+	  Empty.                  [error]
+	  Ranges.
+	  Multiple Ranges.
+  Position of characters in line:
+	  Out of bounds.          [error]
+	  Inbounds.
