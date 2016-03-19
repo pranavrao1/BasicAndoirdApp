@@ -1,7 +1,7 @@
 # File
   Size:
-      Empty.		           [single][property emptyFile]
-      Not Empty.
+          Empty.		           [single][property emptyFile]
+          Not Empty.
   Number of characters in one file:
 	  One.                     [single][if !emptyFile][property loneCharacter]
 	  Many.                            [if !emptyFile]
@@ -27,6 +27,7 @@
 	  Single.                           [if !loneCharacter && !noDelimitSen && singleDelimitLine]
 	  Multiple.                         [if !loneCharacter && !noDelimitSen && !singleDelimitLine]
 
+
 # Filename
   Presence of file corresponding to the name:
 	  Not Present.           [error]
@@ -34,7 +35,7 @@
 	  
 # Option 1: Fields
   Length of the delimiter:
-      Zero.                  [error]
+          Zero.                  [error]
 	  One.
 	  More than one.
   Presence of enclosing quotes:
