@@ -1,0 +1,1008 @@
+
+Test Case 1  		<single>
+   Size :  Empty
+
+
+Test Case 2  		<single>
+   Number of characters in one file :  One
+
+
+Test Case 3  		<single>
+   Number of characters in a single line :  None
+
+
+Test Case 4  		<single>
+   Number of fields in one file :  None
+
+
+Test Case 5  		<single>
+   Number of fields in a single line :  None
+
+
+Test Case 6  		<error>
+   Presence of file corresponding to the name :  Not Present
+
+
+Test Case 7  		<error>
+   Length of the delimiter :  Zero
+
+
+Test Case 8  		<error>
+   Presence of enclosing quotes :  Incorrect
+
+
+Test Case 9  		<error>
+   Number of fields in line :  Empty
+
+
+Test Case 10 		<error>
+   Position of field in line :  Out of bounds
+
+
+Test Case 11 		<error>
+   Number of characters :  Empty
+
+
+Test Case 12 		<error>
+   Position of characters in line :  Out of bounds
+
+
+Test Case 13 		(Key = 2.2.2.2.2.2.2.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 14 		(Key = 2.2.2.2.2.2.2.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 15 		(Key = 2.2.2.2.2.2.2.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 16 		(Key = 2.2.2.2.2.2.2.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 17 		(Key = 2.2.2.2.2.2.3.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 18 		(Key = 2.2.2.2.2.2.3.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 19 		(Key = 2.2.2.2.2.2.3.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 20 		(Key = 2.2.2.2.2.2.3.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 21 		(Key = 2.2.2.2.3.2.2.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 22 		(Key = 2.2.2.2.3.2.2.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 23 		(Key = 2.2.2.2.3.2.2.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 24 		(Key = 2.2.2.2.3.2.2.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 25 		(Key = 2.2.2.2.3.2.3.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 26 		(Key = 2.2.2.2.3.2.3.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 27 		(Key = 2.2.2.2.3.2.3.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 28 		(Key = 2.2.2.2.3.2.3.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 29 		(Key = 2.2.2.3.2.2.2.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 30 		(Key = 2.2.2.3.2.2.2.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 31 		(Key = 2.2.2.3.2.2.2.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 32 		(Key = 2.2.2.3.2.2.2.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 33 		(Key = 2.2.2.3.2.2.3.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 34 		(Key = 2.2.2.3.2.2.3.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 35 		(Key = 2.2.2.3.2.2.3.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 36 		(Key = 2.2.2.3.2.2.3.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 37 		(Key = 2.2.2.3.3.2.2.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 38 		(Key = 2.2.2.3.3.2.2.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 39 		(Key = 2.2.2.3.3.2.2.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 40 		(Key = 2.2.2.3.3.2.2.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 41 		(Key = 2.2.2.3.3.2.3.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 42 		(Key = 2.2.2.3.3.2.3.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 43 		(Key = 2.2.2.3.3.2.3.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 44 		(Key = 2.2.2.3.3.2.3.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  One
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 45 		(Key = 2.2.3.2.2.2.2.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 46 		(Key = 2.2.3.2.2.2.2.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 47 		(Key = 2.2.3.2.2.2.2.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 48 		(Key = 2.2.3.2.2.2.2.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 49 		(Key = 2.2.3.2.2.2.3.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 50 		(Key = 2.2.3.2.2.2.3.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 51 		(Key = 2.2.3.2.2.2.3.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 52 		(Key = 2.2.3.2.2.2.3.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 53 		(Key = 2.2.3.2.3.2.2.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 54 		(Key = 2.2.3.2.3.2.2.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 55 		(Key = 2.2.3.2.3.2.2.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 56 		(Key = 2.2.3.2.3.2.2.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 57 		(Key = 2.2.3.2.3.2.3.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 58 		(Key = 2.2.3.2.3.2.3.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 59 		(Key = 2.2.3.2.3.2.3.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 60 		(Key = 2.2.3.2.3.2.3.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Single
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 61 		(Key = 2.2.3.3.2.2.2.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 62 		(Key = 2.2.3.3.2.2.2.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 63 		(Key = 2.2.3.3.2.2.2.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 64 		(Key = 2.2.3.3.2.2.2.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 65 		(Key = 2.2.3.3.2.2.3.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 66 		(Key = 2.2.3.3.2.2.3.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 67 		(Key = 2.2.3.3.2.2.3.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 68 		(Key = 2.2.3.3.2.2.3.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Single
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 69 		(Key = 2.2.3.3.3.2.2.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 70 		(Key = 2.2.3.3.3.2.2.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 71 		(Key = 2.2.3.3.3.2.2.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 72 		(Key = 2.2.3.3.3.2.2.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  One
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 73 		(Key = 2.2.3.3.3.2.3.1.2.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 74 		(Key = 2.2.3.3.3.2.3.1.2.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 75 		(Key = 2.2.3.3.3.2.3.1.3.2.2.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Ranges
+   Position of characters in line             :  Inbounds
+
+
+Test Case 76 		(Key = 2.2.3.3.3.2.3.1.3.2.3.2.)
+   Size                                       :  Not Empty
+   Number of characters in one file           :  Many
+   Number of characters in a single line      :  Many
+   Number of fields in one file               :  Multiple
+   Number of fields in a single line          :  Multiple
+   Presence of file corresponding to the name :  Present
+   Length of the delimiter                    :  More than one
+   Presence of enclosing quotes               :  Enclosed
+   Number of fields in line                   :  Multiple Ranges
+   Position of field in line                  :  Inbounds
+   Number of characters                       :  Multiple Ranges
+   Position of characters in line             :  Inbounds
+
