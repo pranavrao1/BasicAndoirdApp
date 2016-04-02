@@ -61,7 +61,7 @@ public class FaultyClassTest {
 
     @Test
     public void method4BC(){
-        assertEquals(1,faultyClass.method4(2,2));
+        assertEquals(2,faultyClass.method4(2,2));
         assertEquals(0,faultyClass.method4(2,1));
     }
 
