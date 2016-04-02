@@ -20,29 +20,29 @@ public class FaultyClassTest {
     //Task 1
     @Test
     public void method1SC(){
-        assertEquals(1, faultyClass.method1(true, false));
-        assertEquals(1,faultyClass.method1(false,true));
+        assertEquals(1, faultyClass.method1(true, true));
+        assertEquals(-1,faultyClass.method1(false,false));
     }
 
     @Test
     public void method1BC(){
-        assertEquals(1, faultyClass.method1(true, false));
-        assertEquals(1,faultyClass.method1(false,true));
+        assertEquals(1, faultyClass.method1(true, true));
+        assertEquals(-1,faultyClass.method1(false,false));
     }
 
     @Test
     public void method1PC(){
-        assertEquals(1, faultyClass.method1(true, false));
         assertEquals(1,faultyClass.method1(false,true));
         assertEquals(1, faultyClass.method1(true, true));
-        assertEquals(0,faultyClass.method1(false,false));
+        assertEquals(-1,faultyClass.method1(false,false));
+        assertEquals(0, faultyClass.method1(true, false));
     }
 
     //Task 2
     @Test
     public void method2PC(){
         assertEquals(1,faultyClass.method2(1,1));
-        assertEquals(-1,faultyClass.method2(-1,1));
+        assertEquals(1,faultyClass.method2(-1,1));
         assertEquals(1,faultyClass.method2(-1,-11));
     }
 

@@ -11,7 +11,7 @@ public class FaultyClass {
 
     public int method1(boolean a, boolean b){
         int value = 0;
-        if(!a){
+        if(a || b){
             value++;
         }
 
@@ -19,7 +19,7 @@ public class FaultyClass {
             value--;
         }
 
-        return value/value;
+        return 1/value;
     }
 
     public int method2(int a, int b){
@@ -39,6 +39,7 @@ public class FaultyClass {
             return;
         }
         // Dead code that is not reachable!
+        // Will cause zero fault error
         int c = 5/0;
     }
 
