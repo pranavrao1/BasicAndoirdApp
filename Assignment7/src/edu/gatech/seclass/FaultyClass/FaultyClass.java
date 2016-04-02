@@ -21,12 +21,11 @@ public class FaultyClass {
 
     public int method2(int a, int b){
         int luckDraw = 0;
-        if(a>0 || b>0){
-            luckDraw = 1/b;
-        } else {
-           luckDraw++;
+        while (luckDraw<b){
+            a--;
+            luckDraw++;
         }
-        return luckDraw;
+        return luckDraw/a;
     }
 
     public void method3(int random){
