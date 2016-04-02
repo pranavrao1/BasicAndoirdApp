@@ -39,13 +39,14 @@ public class FaultyClass {
         int c = 5/0;
     }
 
-    public void method4(){
-        /**
-        This method cannot exist. If you have a 100% branch test coverage, this would mean every branch in the
-         code has been tested. Branch coverage is a super set of statement coverage, this means every statement
-         has been covered by these tests.
-         Hence it is impossible for statement coverage to reveal a fault and branch coverage to fail.
-         **/
+    public int method4(int x, int y){
+        int finalT = 0;
+        if (x>y) {
+            finalT = x/(y-1);
+        } else {
+            finalT=y;
+        }
+        return finalT;
     }
 
 }

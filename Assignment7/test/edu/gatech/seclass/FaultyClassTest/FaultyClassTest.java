@@ -53,5 +53,16 @@ public class FaultyClassTest {
 
     }
 
+    @Test
+    public void method4SC(){
+        assertEquals(4,faultyClass.method4(4,2));
+        assertEquals(4,faultyClass.method4(2,4));
+    }
+
+    @Test
+    public void method4BC(){
+        assertEquals(1,faultyClass.method4(2,2));
+        assertEquals(0,faultyClass.method4(2,1));
+    }
 
 }
