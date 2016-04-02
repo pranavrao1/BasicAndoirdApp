@@ -9,17 +9,14 @@ package edu.gatech.seclass.FaultyClass;
  */
 public class FaultyClass {
 
-    public int method1(boolean a, boolean b){
-        int value = 0;
-        if(a || b){
-            value++;
+    public int method1(int a, int b){
+        int result = 0;
+        if (a>b){
+            result= a/(b-2);
+        } else if (b>a) {
+            result= b/(a-2);
         }
-
-        if(!b){
-            value--;
-        }
-
-        return 1/value;
+        return result;
     }
 
     public int method2(int a, int b){

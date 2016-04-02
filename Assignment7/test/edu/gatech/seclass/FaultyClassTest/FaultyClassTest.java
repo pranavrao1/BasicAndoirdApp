@@ -17,25 +17,23 @@ public class FaultyClassTest {
 
     private FaultyClass faultyClass = new FaultyClass();
 
-    //Task 1
     @Test
     public void method1SC(){
-        assertEquals(1, faultyClass.method1(true, true));
-        assertEquals(-1,faultyClass.method1(false,false));
+        assertEquals(3, faultyClass.method1(6, 4));
+        assertEquals(4,faultyClass.method1(4,8));
     }
 
     @Test
     public void method1BC(){
-        assertEquals(1, faultyClass.method1(true, true));
-        assertEquals(-1,faultyClass.method1(false,false));
+        assertEquals(3, faultyClass.method1(6, 4));
+        assertEquals(4,faultyClass.method1(4,8));
+        assertEquals(0,faultyClass.method1(1,1));
     }
 
     @Test
     public void method1PC(){
-        assertEquals(1,faultyClass.method1(false,true));
-        assertEquals(1, faultyClass.method1(true, true));
-        assertEquals(-1,faultyClass.method1(false,false));
-        assertEquals(0, faultyClass.method1(true, false));
+        assertEquals(0,faultyClass.method1(4,2));
+        assertEquals(0,faultyClass.method1(2,4));
     }
 
     //Task 2
