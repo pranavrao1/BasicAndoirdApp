@@ -22,15 +22,14 @@ public class FaultyClass {
         return value/value;
     }
 
-    public void method2(){
-        // This method cannot exist. If you have a 100% path coverage test, this would mean every path in the code has been covered.
-        // This should result in finding the fault. If it does not and
-
-        Long time = System.currentTimeMillis();
-        String value = time.toString();
-        String end = value.substring(9,12);
-        Integer integer = Integer.parseInt(end);
-        int luckDraw = 1/(integer-50);
+    public int method2(int a, int b){
+        int luckDraw = 0;
+        if(a>0 || b>0){
+            luckDraw = 1/b;
+        } else {
+           luckDraw++;
+        }
+        return luckDraw;
     }
 
     public void method3(int random){

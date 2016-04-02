@@ -41,19 +41,22 @@ public class FaultyClassTest {
     //Task 2
     @Test
     public void method2PC(){
-        faultyClass.method2();
+        assertEquals(1,faultyClass.method2(1,1));
+        assertEquals(-1,faultyClass.method2(-1,1));
+        assertEquals(1,faultyClass.method2(-1,-11));
     }
 
     @Test
     public void method2SC(){
-        faultyClass.method2();
+        assertEquals(1,faultyClass.method2(1,1));
+        assertEquals(1,faultyClass.method2(-1,-11));
     }
 
     @Test
     public void method2BC(){
-        while(true){
-            faultyClass.method2();
-        }
+        assertEquals(1,faultyClass.method2(-1,-1));
+        assertEquals(0,faultyClass.method2(-1,11));
+        assertEquals(1,faultyClass.method2(11,0));
     }
 
 
