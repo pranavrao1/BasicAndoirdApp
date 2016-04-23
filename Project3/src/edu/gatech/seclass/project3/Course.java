@@ -46,10 +46,8 @@ public class Course {
     public Integer getNumAssignments(){
         if(db!=null){
             try {
-                FileInputStream file = new FileInputStream(new File(db));
-                XSSFWorkbook workbook = new XSSFWorkbook(file);
-                Grades grades = new Grades();
-                return grades.getNumOfAssignments(workbook);
+                Grades grades = new Grades(db);
+                return grades.getNumOfAssignments();
             } catch (FileNotFoundException e ){
                 e.printStackTrace();
             } catch (IOException e) {
@@ -61,10 +59,8 @@ public class Course {
 
     public Integer getNumProjects(){if(db!=null){
         try {
-            FileInputStream file = new FileInputStream(new File(db));
-            XSSFWorkbook workbook = new XSSFWorkbook(file);
-            Grades grades = new Grades();
-            return grades.getNumberOfProjects(workbook);
+            Grades grades = new Grades(db);
+            return grades.getNumberOfProjects();
         } catch (FileNotFoundException e ){
             e.printStackTrace();
         } catch (IOException e) {
@@ -101,7 +97,8 @@ public class Course {
         return null;
     }
 
-    public Student getStudentByID(String id){
+    public Student getStudentByID(int studentId){
+        String id = String.valueOf(studentId);
         HashSet<Student> students = getStudents();
         for (Student student : students) {
             String studentGtid = String.valueOf(student.getGtid());
@@ -110,6 +107,14 @@ public class Course {
             }
         }
         return null;
+    }
+
+    public void addAssignment(String assignmentName){
+
+    }
+
+    public void updateGrades(Grades grades){
+
     }
 }
 

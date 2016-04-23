@@ -5,6 +5,9 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Iterator;
 
 /**
@@ -16,10 +19,14 @@ import java.util.Iterator;
  */
 public class Grades {
 
-    public Grades() {
+    private String db;
+    public Grades(String db) {
+        this.db=db;
     }
 
-    public Integer getNumberOfProjects(XSSFWorkbook workbook) {
+    public Integer getNumberOfProjects() throws IOException{
+        FileInputStream file = new FileInputStream(new File(db));
+        XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet5 = workbook.getSheetAt(5);
         Row rowHeader = sheet5.getRow(0);
         Iterator<Cell> cells = rowHeader.cellIterator();
@@ -34,7 +41,9 @@ public class Grades {
         return projects;
     }
 
-    public Integer getNumOfAssignments(XSSFWorkbook workbook ) {
+    public Integer getNumOfAssignments() throws IOException{
+        FileInputStream file = new FileInputStream(new File(db));
+        XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet5 = workbook.getSheetAt(3);
         Row rowHeader = sheet5.getRow(0);
         Iterator<Cell> cells = rowHeader.cellIterator();
