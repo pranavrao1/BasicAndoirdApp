@@ -306,7 +306,52 @@ public class Course {
         return average;
     }
 
-    public void addIndividualContributions( String projectName, Map<Student, Integer> contributionMap) {
+    public void addIndividualContributions( String projectName, Map<Student, Integer> contributionMap)  {
+    Grades grades = new Grades(db);
+    try {
+        FileInputStream file = new FileInputStream(new File(db));
+        XSSFWorkbook workbook = new XSSFWorkbook(file);
+        XSSFSheet indConProjects = workbook.getSheetAt(4);
+        Iterator<Row> rowIterator = indConProjects.rowIterator();
 
+        Row rowHeader = rowIterator.next();
+        Iterator<Cell> iterator = rowHeader.cellIterator();
+        int assignmentPosition = 0;
+        while (iterator.hasNext()) {
+            Cell cell = iterator.next();
+            cell.setCellType(Cell.CELL_TYPE_STRING);
+            String value = cell.getStringCellValue();
+            if( value.equals(projectName)) {
+                break;
+            } else {
+                assignmentPosition++;
+            }
+        }
+
+        while (rowIterator.hasNext()) {
+            Row row = rowIterator.next();
+            Cell cell = row.getCell(0);
+            cell.setCellType(Cell.CELL_TYPE_STRING);
+            String id = cell.getStringCellValue();
+            Set<Student> studentSet = contributionMap.keySet();
+            for (Student student : studentSet) {
+                String studentId = String.valueOf(student.getGtid());
+                if (studentId.equals(id)) {
+                    Integer score =  contributionMap.get(student);
+                    if (score!=null) {
+                        Cell cellScore = row.createCell(assignmentPosition);
+                        cellScore.setCellValue(score);
+                    }
+                }
+            }
+        }
+        file.close();
+
+        FileOutputStream fileOutputStream = new FileOutputStream(db);
+        workbook.write(fileOutputStream);
+        fileOutputStream.close();
+    } catch (IOException e) {
+        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+    }
     }
 }
