@@ -130,7 +130,7 @@ public class Course {
     }
 
     public void updateGrades(Grades grades){
-
+        this.db = grades.getDb();
     }
 
     public long getAverageAssignmentsGrade(Student student){
@@ -160,7 +160,7 @@ public class Course {
             }
 
             int numberOfAssignments = 0;
-            int sumOfAssignments = 0;
+            float sumOfAssignments = 0;
             Row row = sheetIndGrade.getRow(rowIndex);
             Iterator<Cell> cells = row.cellIterator();
 
@@ -170,11 +170,11 @@ public class Course {
                 Cell cellgrade = cells.next();
                 cellgrade.setCellType(Cell.CELL_TYPE_STRING);
                 String cellGrade = cellgrade.getStringCellValue();
-                sumOfAssignments += Integer.parseInt(cellGrade);
+                sumOfAssignments += Float.parseFloat(cellGrade);
                 numberOfAssignments++;
             }
 
-            average=sumOfAssignments/numberOfAssignments;
+            average=Math.round(sumOfAssignments/numberOfAssignments);
         } catch (Exception e) {
 
         }
@@ -182,7 +182,52 @@ public class Course {
     }
 
     public void addGradesForAssignment(String assignment, Map<Student, Integer> map){
+        Grades grades = new Grades(db);
+        try {
+            FileInputStream file = new FileInputStream(new File(db));
+            XSSFWorkbook workbook = new XSSFWorkbook(file);
+            XSSFSheet sheetAssignments = workbook.getSheetAt(3);
+            Iterator<Row> rowIterator = sheetAssignments.rowIterator();
 
+            Row rowHeader = rowIterator.next();
+            Iterator<Cell> iterator = rowHeader.cellIterator();
+            int assignmentPosition = 0;
+            while (iterator.hasNext()) {
+                Cell cell = iterator.next();
+                cell.setCellType(Cell.CELL_TYPE_STRING);
+                String value = cell.getStringCellValue();
+                if( value.equals(assignment)) {
+                    break;
+                } else {
+                    assignmentPosition++;
+                }
+            }
+
+            while (rowIterator.hasNext()) {
+                Row row = rowIterator.next();
+                Cell cell = row.getCell(0);
+                cell.setCellType(Cell.CELL_TYPE_STRING);
+                String id = cell.getStringCellValue();
+                Set<Student> studentSet = map.keySet();
+                for (Student student : studentSet) {
+                    String studentId = String.valueOf(student.getGtid());
+                    if (studentId.equals(id)) {
+                    Integer score =  map.get(student);
+                    if (score!=null) {
+                        Cell cellScore = row.createCell(assignmentPosition);
+                        cellScore.setCellValue(score);
+                    }
+                    }
+                }
+            }
+            file.close();
+
+            FileOutputStream fileOutputStream = new FileOutputStream(db);
+            workbook.write(fileOutputStream);
+            fileOutputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
     }
 
     public int getAverageProjectsGrade(Student student){

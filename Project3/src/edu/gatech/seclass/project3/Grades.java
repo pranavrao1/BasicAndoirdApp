@@ -57,5 +57,9 @@ public class Grades {
         }
         return assignments;
     }
+
+    public String getDb() {
+        return db;
+    }
 }
 
