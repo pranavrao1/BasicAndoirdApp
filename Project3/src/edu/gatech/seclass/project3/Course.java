@@ -354,4 +354,20 @@ public class Course {
         e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
     }
     }
+
+    public void addNewStudents(Student student) {
+
+    }
+
+    public void addNewTeam(String name) {
+
+    }
+
+    public void updateTeam(String name, Student student ) {
+
+    }
+
+    public void addNewProjects(String name) {}
+
+    public void addGradesForProject(String name, Map<String, Integer> projectGrades) {}
 }
