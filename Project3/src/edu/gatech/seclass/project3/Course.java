@@ -6,10 +6,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 /**
@@ -112,7 +109,24 @@ public class Course {
     }
 
     public void addAssignment(String assignmentName){
+        Grades grades = new Grades(db);
+        try {
+            int numOfAssignments = grades.getNumOfAssignments();
+            FileInputStream file = new FileInputStream(new File(db));
+            XSSFWorkbook workbook = new XSSFWorkbook(file);
+            XSSFSheet sheetAssignments = workbook.getSheetAt(3);
+            Row row = sheetAssignments.getRow(0);
+            Cell cell = row.createCell(numOfAssignments+1);
+            cell.setCellType(Cell.CELL_TYPE_STRING);
+            cell.setCellValue(assignmentName);
+            file.close();
 
+            FileOutputStream fileOutputStream = new FileOutputStream(db);
+            workbook.write(fileOutputStream);
+            fileOutputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
     }
 
     public void updateGrades(Grades grades){
