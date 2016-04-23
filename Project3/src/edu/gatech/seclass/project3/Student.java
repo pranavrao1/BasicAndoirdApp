@@ -13,6 +13,20 @@ public class Student {
     private String email;
     private String attendence;
     private String teamNumber;
+    private Course course;
+
+    public Course getCourse() {
+        return course;
+    }
+
+    public Student () {
+
+    }
+    public Student(String name, int gtid, Course course) {
+        this.name=name;
+        this.gtid=String.valueOf(gtid);
+        this.course=course;
+    }
 
     public String getName() {
         return name;
