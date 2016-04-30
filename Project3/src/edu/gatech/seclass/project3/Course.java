@@ -23,7 +23,7 @@ import java.util.*;
  * To change this template use File | Settings | File Templates.
  */
 public class Course {
-    private static final String DEFAULT_FORMULA = "ATT * 0.2 + AVGA *0.4 +AVPG * 0.4";
+    private static final String DEFAULT_FORMULA = "ATT * 0.2 + AVGA *0.4 +AVGP * 0.4";
     private String db;
     private String formula;
     public Course(String db){
@@ -421,7 +421,7 @@ public class Course {
     }
 
     public String getFormula() {
-        if (formula.isEmpty()) {
+        if (formula==null || "".equals(formula)) {
             return DEFAULT_FORMULA;
         } else {
             return formula;

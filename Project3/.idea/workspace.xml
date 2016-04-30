@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="098abcd1-a7ee-4cb9-8ec2-e9f6b49d8f0f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/CourseDatabase6300.xlsx" afterPath="$PROJECT_DIR$/DB/CourseDatabase6300.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java" afterPath="$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/gatech/seclass/project3/Student.java" afterPath="$PROJECT_DIR$/src/edu/gatech/seclass/project3/Student.java" />
     </list>
     <ignored path="Project3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,33 +74,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java" line="439" class="edu.gatech.seclass.project3.Course" package="edu.gatech.seclass.project3">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java" line="383" class="edu.gatech.seclass.project3.Course" package="edu.gatech.seclass.project3">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java" line="397" class="edu.gatech.seclass.project3.Course" package="edu.gatech.seclass.project3">
+      <breakpoint url="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java" line="450" class="edu.gatech.seclass.project3.Course" package="edu.gatech.seclass.project3">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -171,12 +145,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CourseTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CourseTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/project3/CourseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.3994778">
+            <state line="12" column="49" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#4023#4041#0" expanded="true" />
                 <element signature="e#5267#5285#0" expanded="true" />
                 <element signature="e#5596#5614#0" expanded="true" />
@@ -197,7 +170,7 @@
       <file leaf-file-name="GradesCalculatorGUI.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/GradesCalculatorGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="25" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
+            <state line="27" column="24" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4776#4784#0" expanded="true" />
@@ -217,10 +190,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Course.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="397" column="0" selection-start="14119" selection-end="14119" vertical-scroll-proportion="0.0">
+            <state line="439" column="0" selection-start="15405" selection-end="15405" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -404,33 +377,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.CourseTest">
-    <configuration default="false" name="CourseTest.testFormulaUpdate1" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Project3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.gatech.seclass.project3" />
-      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.project3.CourseTest" />
-      <option name="METHOD_NAME" value="testFormulaUpdate1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GradesCalculatorGUI">
     <configuration default="false" name="CourseTest.testFormulaUpdate2" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Project3" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -516,6 +463,28 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GradesCalculatorGUI" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.project3.GradesCalculatorGUI" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Project3" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -637,11 +606,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CourseTest.testFormulaUpdate1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CourseTest.testFormulaUpdate2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CourseTest.testFormulaUpdate3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSuite" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CourseTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CourseTest.testFormulaUpdate2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CourseTest.testFormulaUpdate3" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSuite" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CourseTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GradesCalculatorGUI" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -682,14 +651,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5977654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5977654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -698,8 +667,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3048167" sideWeight="0.273743" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26312006" sideWeight="0.5726257" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4273743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26312006" sideWeight="0.40223464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4273743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -852,16 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/GradesCalculatorGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4776#4784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/project3/TestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="17" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
@@ -871,22 +830,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="397" column="0" selection-start="14119" selection-end="14119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/project3/CourseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.3994778">
+        <state line="12" column="49" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#4023#4041#0" expanded="true" />
             <element signature="e#5267#5285#0" expanded="true" />
             <element signature="e#5596#5614#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/GradesCalculatorGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4776#4784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/project3/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="439" column="0" selection-start="15405" selection-end="15405" vertical-scroll-proportion="0.33333334">
+          <folding />
         </state>
       </provider>
     </entry>
