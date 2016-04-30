@@ -16,18 +16,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import edu.gatech.seclass.project3.Course;
-import edu.gatech.seclass.project3.Grades;
-import edu.gatech.seclass.project3.Student;
-import edu.gatech.seclass.project3.Students;
-
 public class CourseTest {
 
     Students students = null;
-    Grades grades = null;
     Course course = null;
-    static final String DB = "DB/CourseDatabase6300.xlsx";
-    static final String DB_GOLDEN = "DB/CourseDatabase6300-golden.xlsx";
+    static final String DB = "DB" + File.separator + "CourseDatabase6300.xlsx";
+    static final String DB_GOLDEN = "DB" + File.separator + "CourseDatabase6300-golden.xlsx";
 
     @Before
     public void setUp() throws Exception {
@@ -41,7 +35,6 @@ public class CourseTest {
     @After
     public void tearDown() throws Exception {
         students = null;
-        grades = null;
         course = null;
     }
 
@@ -96,7 +89,7 @@ public class CourseTest {
     public void testGetStudentsByName2() {
         Student student = null;
         student = course.getStudentByName("Coriander Alfsson");
-        assertEquals(98, student.getAttendance());
+        assertEquals(98, course.getAttendance(student));
     }
 
     @Test
@@ -108,13 +101,13 @@ public class CourseTest {
     @Test
     public void testGetTeam1() {
         Student student = course.getStudentByName("Genista Parrish");
-        assertEquals("Team 2", student.getTeam());
+        assertEquals("Team 2", course.getTeam(student));
     }
 
     @Test
     public void testGetTeam2() {
         Student student = course.getStudentByName("Freddie Catlay");
-        assertEquals("Team 1", student.getTeam());
+        assertEquals("Team 1", course.getTeam(student));
     }
 
     // New tests below
@@ -132,9 +125,9 @@ public class CourseTest {
     @Test
     public void testAddGradesForAssignment() {
         String assignmentName = "Assignment: category partition";
-        Student student1 = new Student("Josepha Jube", 901234502, course);
-        Student student2 = new Student("Christine Schaeffer", 901234508, course);
-        Student student3 = new Student("Ernesta Anderson", 901234510, course);
+        Student student1 = new Student("Josepha Jube", 901234502);
+        Student student2 = new Student("Christine Schaeffer", 901234508);
+        Student student3 = new Student("Ernesta Anderson", 901234510);
         course.addAssignment(assignmentName);
         course.updateGrades(new Grades(DB));
         HashMap<Student, Integer> grades = new HashMap<Student, Integer>();
@@ -151,22 +144,22 @@ public class CourseTest {
     @Test
     public void testGetAverageAssignmentsGrade() {
         // Rounded to the closest integer
-        Student student = new Student("Ernesta Anderson", 901234510, course);
+        Student student = new Student("Ernesta Anderson", 901234510);
         assertEquals(90, course.getAverageAssignmentsGrade(student));
     }
 
     @Test
     public void testGetAverageProjectsGrade() {
         // Rounded to the closest integer
-        Student student = new Student("Rastus Kight", 901234512, course);
+        Student student = new Student("Rastus Kight", 901234512);
         assertEquals(86, course.getAverageProjectsGrade(student));
     }
 
     @Test
     public void testAddIndividualContributions() {
         String projectName1 = "Project 2";
-        Student student1 = new Student("Josepha Jube", 901234502, course);
-        Student student2 = new Student("Grier Nehling", 901234503, course);
+        Student student1 = new Student("Josepha Jube", 901234502);
+        Student student2 = new Student("Grier Nehling", 901234503);
         HashMap<Student, Integer> contributions1 = new HashMap<Student, Integer>();
         contributions1.put(student1, 96);
         contributions1.put(student2, 87);
@@ -180,5 +173,26 @@ public class CourseTest {
         course.updateGrades(new Grades(DB));
         assertEquals(90, course.getAverageProjectsGrade(student1));
         assertEquals(84, course.getAverageProjectsGrade(student2));
+    }
+
+    @Test
+    public void testFormulaUpdate1() {
+        course.setFormula("AVGA * .5 + AVGP * .5");
+        Student student = new Student("Kym Hiles", 901234507);
+        assertEquals(92, course.getOverallGrade(student));
+    }
+
+    @Test
+    public void testFormulaUpdate2() {
+        course.setFormula("99.5");
+        Student student = new Student("Genista Parrish", 901234509);
+        assertEquals(100, course.getOverallGrade(student));
+    }
+
+    @Test(expected = GradeFormulaException.class)
+    public void testFormulaUpdate3() {
+        course.setFormula("ATT * 02 + AVG * 0.5 + AVGP * 0.3");
+        Student student = new Student("Genista Parrish", 901234509);
+        assertEquals(100, course.getOverallGrade(student));
     }
 }
