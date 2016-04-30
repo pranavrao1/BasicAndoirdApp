@@ -22,6 +22,11 @@ public class Student {
     public Student () {
 
     }
+
+    public Student(String name, int gtid) {
+        this.name=name;
+        this.gtid=String.valueOf(gtid);
+    }
     public Student(String name, int gtid, Course course) {
         this.name=name;
         this.gtid=String.valueOf(gtid);

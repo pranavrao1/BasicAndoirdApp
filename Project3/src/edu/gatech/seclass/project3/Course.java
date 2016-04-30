@@ -1,12 +1,18 @@
 package edu.gatech.seclass.project3;
 
+import com.sun.deploy.util.StringUtils;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.hssf.usermodel.examples.CellTypes;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 import java.io.*;
+import java.text.DecimalFormat;
 import java.util.*;
 
 /**
@@ -17,7 +23,9 @@ import java.util.*;
  * To change this template use File | Settings | File Templates.
  */
 public class Course {
+    private static final String DEFAULT_FORMULA = "ATT * 0.2 + AVGA *0.4 +AVPG * 0.4";
     private String db;
+    private String formula;
     public Course(String db){
         this.db=db;
     }
@@ -116,7 +124,7 @@ public class Course {
             XSSFWorkbook workbook = new XSSFWorkbook(file);
             XSSFSheet sheetAssignments = workbook.getSheetAt(3);
             Row row = sheetAssignments.getRow(0);
-            Cell cell = row.createCell(numOfAssignments+1);
+            Cell cell = row.createCell(numOfAssignments + 1);
             cell.setCellType(Cell.CELL_TYPE_STRING);
             cell.setCellValue(assignmentName);
             file.close();
@@ -370,4 +378,84 @@ public class Course {
     public void addNewProjects(String name) {}
 
     public void addGradesForProject(String name, Map<String, Integer> projectGrades) {}
+
+    public int getAttendance(Student student) {
+
+        String id = String.valueOf(student.getGtid());
+        int attendence = 0;
+        try {
+            FileInputStream file = new FileInputStream(new File(db));
+            XSSFWorkbook workbook = new XSSFWorkbook(file);
+            XSSFSheet indConProjects = workbook.getSheetAt(2);
+            Iterator<Row> rowIterator = indConProjects.rowIterator();
+            rowIterator.next();
+
+            while (rowIterator.hasNext()) {
+                Row row  = rowIterator.next();
+                Cell celld = row.getCell(0);
+                celld.setCellType(Cell.CELL_TYPE_STRING);
+                String value = celld.getStringCellValue();
+                if (id.equals(value)) {
+                    Cell cellAtt = row.getCell(1);
+                    cellAtt.setCellType(Cell.CELL_TYPE_STRING);
+                    String att = cellAtt.getStringCellValue();
+                    attendence = Integer.valueOf(att);
+                } else {
+
+                }
+            }
+
+            file.close();
+
+            FileOutputStream fileOutputStream = new FileOutputStream(db);
+            workbook.write(fileOutputStream);
+            fileOutputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        return attendence;
+    }
+
+    public String getTeam(Student student) {
+        return student.getTeam();
+    }
+
+    public String getFormula() {
+        if (formula.isEmpty()) {
+            return DEFAULT_FORMULA;
+        } else {
+            return formula;
+        }
+    }
+
+    public void setFormula( String formula) {
+        this.formula=formula;
+    }
+
+    public int getOverallGrade(Student student) throws GradeFormulaException{
+        int ATT = getAttendance(student);
+        long AVGA = getAverageAssignmentsGrade(student);
+        long AVGP = getAverageProjectsGrade(student);
+
+        String formulaLocale = getFormula();
+        ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine engine = manager.getEngineByExtension("js");
+        engine.put("ATT",ATT);
+        engine.put("AVGA",AVGA);
+        engine.put("AVGP",AVGP);
+
+        Double result = 0.0;
+        try {
+            result = (Double) engine.eval(formulaLocale);
+        } catch (ScriptException e) {
+            throw new GradeFormulaException(formulaLocale);
+        }
+        DecimalFormat f = new DecimalFormat("##");
+        String finalValue = f.format(result);
+        return Integer.parseInt(finalValue);
+    }
+
+    public String getEmail(Student student) {
+        return student.getEmail();
+    }
 }
